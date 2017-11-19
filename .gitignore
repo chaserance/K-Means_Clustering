@@ -3,5 +3,4 @@
 *.iml
 src/main/resources/
 src/test/
-target/generated-sources/
-
+/target/**
