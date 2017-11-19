@@ -66,7 +66,6 @@ public class Test {
         for(int i = 0; i < data.size(); i++) {
             DataPoint d = data.get(i);
             outputs.get(i).add(d.distance(initSample.get(d.getCluster()).getCenter()));
-            System.out.println(d.getCluster());
         }
     }
 
